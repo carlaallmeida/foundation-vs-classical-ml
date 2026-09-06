@@ -47,3 +47,27 @@ O estudo contrasta duas filosofias distintas de aprendizado de máquina:
 ├── src/                   # Scripts auxiliares e funções de processamento
 ├── outputs/               # Resultados, métricas e artefatos gerados
 └── README.md              # Documentação do projeto
+---
+
+## 🛠️ Requisitos e Execução
+
+### Pré-requisitos
+Certifique-se de ter o [Anaconda](https://www.anaconda.com/) ou o [Miniconda](https://docs.conda.io/) instalados em sua máquina para gerenciar o ambiente virtual e as dependências geoespaciais.
+
+### Dependências Principais (`environment.yml`)
+O projeto utiliza bibliotecas voltadas para manipulação de dados tabulares, computação científica, séries temporais e processamento geoespacial em nuvem:
+* **Python** (versão 3.11 ou superior)
+* **Pandas** e **NumPy** (manipulação de dados)
+* **Xarray** (manipulação de cubos de dados multidimensionais)
+* **PySTAC Client** (`pystac_client`) e **Stackstac** (`stackstac`) (consulta ao catálogo STAC e criação de cubos sob demanda)
+* **Geopandas** e **Shapely** (manipulação de geometrias e máscaras espaciais)
+* **Scikit-Learn / XGBoost / LightGBM / CatBoost** (modelos de aprendizado de máquina clássicos)
+
+---
+
+### 💻 Passo a Passo para Execução
+
+1. **Clone o repositório e acesse a pasta:**
+   ```bash
+   git clone [https://github.com/seu-usuario/foundation-vs-classical-ml.git](https://github.com/seu-usuario/foundation-vs-classical-ml.git)
+   cd foundation-vs-classical-ml
